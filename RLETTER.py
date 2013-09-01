@@ -1,4 +1,3 @@
-x = raw_input()
-y = raw_input().split()
-x = x.replace(y[0],y[1])
-print x
+x,y = raw_input(),raw_input().split()
+print   x.replace(y[0],y[1])
+
