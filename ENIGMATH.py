@@ -5,7 +5,6 @@ for i in range(input()):
 	if y == 1:
 		print b,a
 	else:
-		lcm  = a*b/y
-		print lcm/a,lcm/b
+		print b/y,a/y
 		
 	
